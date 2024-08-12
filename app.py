@@ -61,3 +61,10 @@ if uploaded_file is not None:
             st.write(result.fetchall())
         except Exception as e:
             st.error(f"Error executing SQL query: {e}")
+
+
+#sample questions:
+#how many category are there in the fraud_data?
+#What is the total amt  grouped by state in the fraud_data ?
+#How many fraudulent transactions (isfraud = 1) are there in each city in the fraud_data dataset?
+#How many transactions occurred in the fraud_data where the category is 'health_fitness' and the amt is greater than 100?
