@@ -1,2 +1,2 @@
 # config.py
-api_key = "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"
+api_key = "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"
