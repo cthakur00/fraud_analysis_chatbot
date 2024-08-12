@@ -1,0 +1,2 @@
+# config.py
+api_key = "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"
